@@ -1,0 +1,9 @@
+# Nested git repositories
+.git/
+
+# Claude Code settings (may contain local preferences)
+.claude/
+
+# OS files
+.DS_Store
+Thumbs.db
