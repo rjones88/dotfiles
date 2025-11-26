@@ -4,6 +4,7 @@ My personal configuration files for:
 - Neovim
 - Zsh
 - Starship prompt
+- Kitty terminal
 
 ## Installation
 
@@ -22,7 +23,7 @@ This repository uses [GNU Stow](https://www.gnu.org/software/stow/) for symlink 
 3. Create symlinks:
    ```bash
    cd ~/dotfiles
-   stow nvim zsh starship
+   stow nvim zsh starship kitty
    ```
 
 ## Uninstall
@@ -30,7 +31,7 @@ This repository uses [GNU Stow](https://www.gnu.org/software/stow/) for symlink 
 To remove symlinks:
 ```bash
 cd ~/dotfiles
-stow -D nvim zsh starship
+stow -D nvim zsh starship kitty
 ```
 
 ## Structure
@@ -38,3 +39,4 @@ stow -D nvim zsh starship
 - `nvim/` - Neovim configuration
 - `zsh/` - Zsh configuration
 - `starship/` - Starship prompt configuration
+- `kitty/` - Kitty terminal configuration
